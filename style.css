@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: black;
+    font-size: 27px;
+}
+
+nav{
+    width: 100%;
+    position: fixed;
+    /* background: grey;     */
+
+}
+
+.nav-ul{
+    display: flex;
+    justify-content: center;
+    font-size: 27px;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.nav-list{
+    text-decoration:none;
+    float: left;
+    margin: 1rem;
+}
+
+.brand-name{
+    font-weight: 700;
+    position: absolute;;
+    left:0;
+    padding-left:5% ;    
+}
+
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-header{
+    width:50vw;
+    margin-left: 1rem;
+}
+
+.heading-ceramic{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+    margin-right:2rem
+
+}
+
+.product-headline{
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+}
+.product-slogan{
+    color:grey;
+    margin-bottom: 0.8rem;
+}
